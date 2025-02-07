@@ -1,0 +1,74 @@
+.hero{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    height: 50.5rem;
+    background:
+    url('../../../assets/hero/Mask\ group\ main.png')left 9% top,
+     url('../../../assets/hero/Ellipse\ 13main.png') top 10% right 1%,
+     url('../../../assets/hero/Ellipse\ 8main.png') left bottom,
+   
+     url('../../../assets/EllipseBig.png') center center, 
+     url('../../../assets/EllipseSmall.png') center center,
+     url('../../../assets/Vectomain.png')left 29.3% bottom 27.3% ,
+     url('../../../assets/Vectomain.png')right 28% top 22.5%;
+background-repeat: no-repeat;
+
+}
+.heroTitle{
+    margin-top: 10.5rem;
+text-align: center;
+font-size: 8.35rem; 
+letter-spacing:  -3;
+line-height: 138.2px;
+
+}
+.heroHead,.heroHead_est{
+    display: flex;
+   
+}
+.heroHead{
+    justify-content: space-between;
+}
+.heroHead_est{
+   width: 15.25rem;
+    flex-direction: column;
+}
+.heroHead_est p{
+    font-size: 1.3rem;
+
+}
+.heroHead small{
+    font-size: 0.9rem;
+    margin: 0.5rem 0;
+opacity: 80%;
+    
+}
+.heroFooter{
+     display: flex;
+    justify-content: space-between;
+align-items: center;
+    margin-top:13rem;
+   
+    
+}
+
+.heroFooter p{
+text-transform: uppercase;
+
+}
+.heroFooter_line {
+  width: 800px;
+    height:  1px;
+    background-color:rgba(255, 255, 255, 1);
+    margin: 0 20px; 
+}
+.heroFooter_link{
+    padding: 1rem;
+    border:1px solid rgba(255, 255, 255, 0.8);
+}
+.heroFooter_arrow{
+    margin-left: 0.5rem;
+    width: 0.8rem;
+    height: 1rem;
+}

@@ -1,0 +1,39 @@
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+
+  color:rgba(241, 241, 241, 1);
+  font-size: 1rem;
+  font-family: var(--font-instrument-sans), Arial, Helvetica, sans-serif; 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: url('../assets/Ellipse\ 13featuredportfolio.png') no-repeat left 12% top 65%,
+  rgba(0, 0, 0, 1);
+
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+ul{
+  list-style-type: none;
+  font-size: 1rem;
+}
+h1,h2,h3,p,a,li{
+  font-weight: 500;
+ 
+}

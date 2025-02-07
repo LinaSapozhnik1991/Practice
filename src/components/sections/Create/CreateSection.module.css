@@ -1,0 +1,75 @@
+:root {
+    --font-size-large: 4.5rem;
+    --font-size-medium: 2rem;
+    --spacing-small: 0.7rem;
+    --spacing-medium: 0.9rem;
+    --spacing-large: 7.5rem;
+    --letter-spacing-normal: -0.6px;
+}
+
+.createSection {
+    border-top: 1px solid #fff;
+    padding: 0.7rem 0 2rem;
+    height: 35.68rem;
+    margin-top: var(--spacing-large);
+    background: 
+        url('../../../assets/Ellipsecreate.png') center top 13%,
+        url('../../../assets/EllipseSmall.png') center top 38%,
+        url('../../../assets/Ellipsexxs.png') center top 43%,
+        url('../../../assets/VectorCreate.png') left 26.6% top 39%,
+        url('../../../assets/Vectorxs.png') right 27.1% top 29%,
+        url('../../../assets/VectorCreate.png') bottom 18% left 12.8%,
+        url('../../../assets/Vectomain.png') top 12.5% right 27%,
+        url('../../../assets/Vectomain.png') left 41% bottom 23%,
+        url('../../../assets/create.png') left 25% bottom;
+    background-repeat: no-repeat;
+}
+
+.create_head_menu, .contacts_menu, .create_footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts_menu {
+    gap: 8.75rem;
+    margin-top: 0.8rem;
+    letter-spacing: var(--letter-spacing-normal);
+}
+
+.logoContainer {
+    margin-top: var(--spacing-small);
+}
+
+.logo {
+    letter-spacing: -1px;
+    font-size: var(--font-size-medium);
+}
+
+.create_title {
+    margin-top: 7.4rem;
+    text-align: center;
+}
+
+.create_title h2 {
+    font-size: var(--font-size-large);
+    padding-left: 0.1rem;
+    letter-spacing: -2.8px;
+    line-height: 4.95rem;
+}
+
+.create_title span {
+    padding-left: 0.7rem;
+}
+
+.create_title p {
+    margin-top: var(--spacing-medium);
+}
+
+.create_footer {
+    margin-top: var(--spacing-large);
+}
+
+.create_footer p {
+    letter-spacing: -0.51px;
+    align-self: flex-end;
+}

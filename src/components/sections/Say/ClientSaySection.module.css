@@ -1,0 +1,39 @@
+.clientSay{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7.2rem;
+    
+}
+
+.card_title{
+    font-size: 4.9rem;
+    text-align: center;
+    letter-spacing: -2;
+  
+}
+.card_sub_title{
+    margin-top: 1.3rem;
+    text-transform: uppercase;
+    width: 53.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+    letter-spacing: -1;
+    line-height: 2.1rem;
+}
+.card_list{
+    margin-top: 4.1rem;
+    display: grid;
+ grid-template-columns: repeat(3,auto);
+    gap: 1.5rem;
+}
+.seeMore{
+    margin-top: 4.2rem;
+    text-align: center;
+    letter-spacing: -1;
+}
+.seeMore p{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+
+}

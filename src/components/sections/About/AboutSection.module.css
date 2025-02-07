@@ -1,0 +1,66 @@
+.about{
+    margin-top: 7rem;
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    
+  
+}
+
+.about_title h2{
+    font-size: 5rem;
+   line-height: 88px;
+
+   text-align: left;
+   letter-spacing:-4;
+    text-transform: uppercase;
+}
+.aboutContent{
+       width: 41.25rem;
+}
+.aboutContent_text{
+    font-size: 1.385rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-right: 0rem;
+    line-height: 33.6px;
+}
+.aboutCardsWrapper{
+    display: grid;
+    margin-top: 2.4rem;
+    grid-template-columns: 240px 240px;
+    gap:3.5rem
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    background:url('../../../assets/SubtractCard.png')no-repeat center;
+    width: 240px;
+    height: 276px;
+}
+.card_header{
+    margin:0.7rem 1rem ;
+}
+.card_body{
+    letter-spacing: -0.2;
+}
+.card_body h3{
+    font-size: 1.125rem;
+margin: 0.45rem 1rem;
+}
+.card_body p{
+    margin:0.5rem 1rem 1.6rem 0.5rem;
+}
+.card_line{
+    background: url('../../../assets/line.png')no-repeat;
+    height: 2px;
+    margin-left: 1rem;
+
+}
+
+.card_footer img{
+width: 13rem;
+height: 3.375rem;
+margin-top: 0.9rem;
+margin-left: 1rem;
+}
