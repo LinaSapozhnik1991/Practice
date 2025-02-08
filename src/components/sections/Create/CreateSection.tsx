@@ -6,7 +6,7 @@ import arrowUp from '../../../assets/vectorArrow/arrowUp.png';
 const CreateSection: React.FC = () => {
     return (
         <div className={styles.createSection}>
-            <div className={styles.create_head_menu}>
+            <div className={styles.create_head_menu} id='contacts'>
                 <ul className={styles.contacts_menu}>
                     <li><Link href="https://dribbble.com" target="_blank" rel="noopener noreferrer">DRIBBBLE</Link></li>
                     <li><Link href="https://www.behance.net" target="_blank" rel="noopener noreferrer">BEHANCE</Link></li>
@@ -25,7 +25,7 @@ const CreateSection: React.FC = () => {
 </div>
     <div className={styles.create_footer}>
         <p>© Copyright Schrift 2024</p>
-        <Image src={arrowUp} alt='arrow'/>
+       <Link href='/'> <Image src={arrowUp} alt='arrow'/></Link>
     </div>
         </div>
     );

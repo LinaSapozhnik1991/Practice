@@ -4,7 +4,7 @@ import Services from './Services';
 
 const ProvideSection: React.FC = () => {
     return (
-        <div className={styles.provide}>
+        <div className={styles.provide} id='services'>
 <h2 className={styles.provide_title}>
     WHAT WE PROVIDE
 </h2>

@@ -9,7 +9,7 @@
 .card_title{
     font-size: 4.9rem;
     text-align: center;
-    letter-spacing: -2;
+    letter-spacing: -2px;
   
 }
 .card_sub_title{
@@ -18,7 +18,7 @@
     width: 53.5rem;
     font-size: 1.5rem;
     text-align: center;
-    letter-spacing: -1;
+    letter-spacing: -1px;
     line-height: 2.1rem;
 }
 .card_list{
@@ -30,10 +30,51 @@
 .seeMore{
     margin-top: 4.2rem;
     text-align: center;
-    letter-spacing: -1;
+    letter-spacing: -1px;
 }
 .seeMore p{
     font-size: 1.5rem;
     margin-bottom: 1rem;
 
+}
+@media (max-width: 1024px) {
+    .card_title {
+        font-size: 4rem; 
+    }
+
+    .card_sub_title {
+        width: 90%; 
+        font-size: 1.3rem; 
+    }
+
+    .card_list {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
+
+@media (max-width: 768px) {
+    .card_title {
+        font-size: 3.5rem; 
+    }
+
+    .card_sub_title {
+        font-size: 1.2rem; 
+    }
+
+    .card_list {
+        grid-template-columns: 1fr; 
+    }
+
+    .seeMore p {
+        font-size: 1.3rem; 
+    }
+}
+
+@media (max-width: 375px) {
+    .card_sub_title {
+        font-size: 1rem; 
+    }
+    .seeMore p {
+        font-size: 1.2rem;
+    }
 }

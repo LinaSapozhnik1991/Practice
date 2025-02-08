@@ -32,8 +32,87 @@
     display: grid;
     grid-area: c;
     font-size: var(--font-size-medium);
-    margin: 0 0.9rem 0 0.3rem; /* Объединены margin-применения */
+    margin: 0 0.9rem 0 0.3rem; 
     text-transform: uppercase;
     letter-spacing: var(--letter-spacing-small);
     line-height: var(--line-height-medium);
 }
+/* Медиа-запросы для адаптивности */
+@media (max-width: 1920px) {
+    .feature {
+        height: 40rem; /* Пример изменения высоты для больших экранов */
+        margin-top: 6rem;
+    }
+
+    .feature_title {
+        font-size: 4.5rem; /* Уменьшение размера шрифта */
+    }
+}
+
+@media (max-width: 1366px) {
+    .feature {
+        height: 35rem;
+        margin-top: 5rem;
+    }
+
+    .feature_title {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .feature {
+        height: auto;
+        margin: 4rem auto;
+        grid-template-areas: 
+            't'
+            'c'
+            'h'
+            'l'; 
+    }
+
+    .feature_title {
+        text-align: center;
+        font-size: 3.5rem;
+    }
+    .feature_text_content{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .feature {justify-content: center;
+        height: auto;
+        margin-top: 3rem;
+    }
+
+    .feature_title {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .feature_text_content {
+        font-size: 1.2rem; 
+    }
+}
+
+@media (max-width: 375px) {
+    .feature {
+        margin: 2rem auto;
+    }
+
+    .feature_title {
+        text-align: center;
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+    .feature_text_content{
+        font-size: 0.8rem;
+        line-height: 1rem;
+    }
+
+     
+
+}
+

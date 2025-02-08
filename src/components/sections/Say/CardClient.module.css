@@ -44,3 +44,19 @@ height: 143px;
    height: 2px;
  
 }
+@media (max-width: 375px) {
+    .cards{
+        width: 350px;
+        height: 135px;
+    }
+    .cardHeader{
+        justify-content: space-around;
+        
+    }
+    .card_title{
+        font-size: 0.95rem;
+    }
+    .card_content, .card_text{
+        font-size: 0.7rem;
+    }
+}

@@ -1,6 +1,6 @@
 .provide{
     margin-top: 3.2rem;
-    height: 1054px;
+    height: auto;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
 .provide_title{
     text-align: center;
     font-size:4.8rem;
-    letter-spacing: -1;
+    letter-spacing: -1px;
 
 }
 .provide p{
@@ -20,4 +20,12 @@
     font-size: 1.37rem;
 }
 
-
+@media (max-width: 1024px) {
+    .provide_title{
+        font-size: 3.5rem;
+    }
+    .provide p{
+        margin: 1rem;
+        font-size: 1rem;
+    }
+}

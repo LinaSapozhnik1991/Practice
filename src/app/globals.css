@@ -28,7 +28,10 @@ a {
   text-decoration: none;
   text-transform: uppercase;
 }
-
+.container{
+  max-width: 90rem;
+  margin: 0 auto;
+}
 ul{
   list-style-type: none;
   font-size: 1rem;
@@ -37,3 +40,32 @@ h1,h2,h3,p,a,li{
   font-weight: 500;
  
 }
+
+@media (max-width: 1920px) {
+body{
+  background: url('../assets/Ellipse\ 13featuredportfolio.png') no-repeat left 2% top 65%,
+  rgba(0, 0, 0, 1);
+}
+}
+  @media (max-width: 1366px) {
+    body{
+      background: url('../assets/Ellipse\ 13featuredportfolio.png') no-repeat left 2% top 67%;
+    }
+    }
+    @media (max-width: 1024px) {
+      body{
+        background: url('../assets/Ellipse\ 13featuredportfolio.png') no-repeat left 2% top 65%;
+       
+      }
+      }
+      @media (max-width: 768px) {
+        body{
+          background: url('../assets/Ellipse\ 13featuredportfolio.png') no-repeat left 2% top 60%;
+      
+        }
+        }
+        @media (max-width: 375px) {
+          body{
+            background-image: none;
+          }
+          }

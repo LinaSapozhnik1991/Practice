@@ -24,14 +24,14 @@ const FeaturedSection: React.FC = () => {
     };
 
     return (
-        <div className={styles.feature}>
+        <div className={styles.feature} id='portfolio'>
             <h2 className={styles.feature_title}>FEATURED PORTFOLIO</h2>
             <p className={styles.feature_text_content}>
                 Explore how Schrift transforms bold ideas into impactful designs.
                 From branding to digital experiences, our work reflects precision, clarity, and purpose.
             </p>
 
-            <FeatureTextHover activeFeature={activeFeature} />
+            <FeatureTextHover activeFeature={activeFeature} features={features}  />
             <FeatureList 
                 features={features} 
                 onFeatureHover={handleMouseEnter} 

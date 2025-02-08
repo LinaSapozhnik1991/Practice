@@ -24,11 +24,57 @@
       font-size: 3.5rem;
       color: rgba(241, 241, 241, 1);
       line-height: 3.85rem;
-      letter-spacing: -2.5;
+      letter-spacing: -2.5px;
       text-align: center;
       -webkit-transform: rotate(-20deg);
       -moz-transform: rotate(-20deg);
       -ms-transform: rotate(-20deg);
       -o-transform: rotate(-20deg);
 }
-  
+
+
+@media (max-width: 1360px) {
+    .text{
+        width: 32rem;
+    }
+}
+@media (max-width: 1024px) {
+    .text {
+       width: 100%;
+       height:auto;
+     
+}
+
+    .rotatedText {
+     transform: rotate(0);
+     padding: 2.5rem;
+     font-size: 2.5rem;
+     line-height: 3rem;
+     -webkit-transform: rotate(0);
+     -moz-transform: rotate(0);
+     -ms-transform: rotate(0);
+     -o-transform: rotate(0);
+}
+.rotatedText br{
+    display: none;
+}
+}
+
+@media (max-width: 768px) {
+    .text {
+        width: 100%; 
+        height: auto; 
+    }
+
+    .rotatedText {
+        font-size: 2rem; 
+        line-height: 2.5rem; 
+    }
+}
+
+@media (max-width: 375px) {
+    .rotatedText {
+        font-size: 1.5rem; 
+        line-height: 2rem; 
+    }
+}

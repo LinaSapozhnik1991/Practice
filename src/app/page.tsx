@@ -1,6 +1,6 @@
 import React from 'react';
 import NavBar from '@/components/NavBar';
-import styles from '@/style/Home.module.css';
+import styles from './page.module.css';
 import HeroSection from '@/components/sections/HeroSection/HeroSection';
 import AboutSection from '@/components/sections/About/AboutSection';
 import ProvideSection from '@/components/sections/Provide/ProvideSection';

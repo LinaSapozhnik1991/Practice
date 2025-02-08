@@ -16,7 +16,7 @@ const AboutSection: React.FC = () => {
         { svgIcon: <IconFoure />, title: 'CREATIVE EXCELLENCE', description: 'Our team is composed of experienced designers who bring fresh, innovative perspectives to each project' },
       ];
     return (
-        <div className={styles.about}>
+        <div className={styles.about} id='about'>
             <div className={styles.about_title}>
                 <h2>about<br/> schrift</h2>
                 <Image src ={container} alt='image'/>
