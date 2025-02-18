@@ -1,62 +1,53 @@
-.cards{
-background: 
-             url('../../../assets/Subtract.png')no-repeat center;
+.cards {
+    background: url("../../../assets/Subtract.png") no-repeat center;
 
-width: 387px;
-height: 143px;
-    
+    width: 387px;
+    height: 143px;
 }
-.cardHeader{
+.cardHeader {
     display: flex;
     justify-content: space-between;
     padding: 10px;
-
-
-    
 }
-.card_title{
+.card_title {
     font-size: 1rem;
     padding-left: 13px;
     letter-spacing: -1;
 }
-.card_content, .card_text{
+.card_content,
+.card_text {
     font-size: 0.875rem;
     text-align: center;
     font-weight: 400;
     letter-spacing: -0.5;
-  
-   
 }
-.card_text{
+.card_text {
     opacity: 0.6;
     font-style: italic;
     padding-right: 10px;
     letter-spacing: -1;
-  
 }
-.card_content{
+.card_content {
     margin: 1.45rem 1rem;
     line-height: 17.08px;
-    
 }
-.card_line{   
-   background:  url('../../../assets/Vectorline.png')no-repeat;
-   height: 2px;
- 
+.card_line {
+    background: url("../../../assets/Vectorline.png") no-repeat;
+    height: 2px;
 }
 @media (max-width: 375px) {
-    .cards{
+    .cards {
         width: 350px;
         height: 135px;
     }
-    .cardHeader{
+    .cardHeader {
         justify-content: space-around;
-        
     }
-    .card_title{
+    .card_title {
         font-size: 0.95rem;
     }
-    .card_content, .card_text{
+    .card_content,
+    .card_text {
         font-size: 0.7rem;
     }
 }

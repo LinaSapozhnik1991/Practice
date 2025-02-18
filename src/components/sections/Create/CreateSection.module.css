@@ -12,20 +12,22 @@
     padding: 0.7rem 0 2rem;
     height: 35.68rem;
     margin-top: var(--spacing-large);
-    background: 
-        url('../../../assets/Ellipsecreate.png') center top 13%,
-        url('../../../assets/EllipseSmall.png') center top 38%,
-        url('../../../assets/Ellipsexxs.png') center top 43%,
-        url('../../../assets/VectorCreate.png') left 26.6% top 39%,
-        url('../../../assets/Vectorxs.png') right 27.1% top 29%,
-        url('../../../assets/VectorCreate.png') bottom 18% left 12.8%,
-        url('../../../assets/Vectomain.png') top 12.5% right 27%,
-        url('../../../assets/Vectomain.png') left 41% bottom 23%,
-        url('../../../assets/create.png') left 25% bottom;
+    background:
+        url("../../../assets/Ellipsecreate.png") center top 13%,
+        url("../../../assets/EllipseSmall.png") center top 38%,
+        url("../../../assets/Ellipsexxs.png") center top 43%,
+        url("../../../assets/VectorCreate.png") left 26.6% top 39%,
+        url("../../../assets/Vectorxs.png") right 27.1% top 29%,
+        url("../../../assets/VectorCreate.png") bottom 18% left 12.8%,
+        url("../../../assets/Vectomain.png") top 12.5% right 27%,
+        url("../../../assets/Vectomain.png") left 41% bottom 23%,
+        url("../../../assets/create.png") left 25% bottom;
     background-repeat: no-repeat;
 }
 
-.create_head_menu, .contacts_menu, .create_footer {
+.create_head_menu,
+.contacts_menu,
+.create_footer {
     display: flex;
     justify-content: space-between;
 }
@@ -76,73 +78,72 @@
 
 @media (max-width: 1024px) {
     .create_title h2 {
-        font-size: var(--font-size-small); 
+        font-size: var(--font-size-small);
     }
 
     .contacts_menu {
-        gap: 4rem; 
+        gap: 4rem;
     }
 }
 
 @media (max-width: 768px) {
-   .createSection{ 
-    background: 
-    url('../../../assets/Ellipsecreate.png') center top 13%,
-    url('../../../assets/EllipseSmall.png') center top 38%,
-    url('../../../assets/Ellipsexxs.png') center top 43%,
-    url('../../../assets/VectorCreate.png') left 20% top 39%,
-    url('../../../assets/Vectorxs.png') right 27.1% top 29%,
-    url('../../../assets/VectorCreate.png') bottom 10.2% left 12.8%,
-    url('../../../assets/Vectomain.png') top 10% right 27%,
-    url('../../../assets/Vectomain.png') left 31% bottom 23%,
-    url('../../../assets/create.png') left 25% bottom;
-background-repeat: no-repeat;
-}
+    .createSection {
+        background:
+            url("../../../assets/Ellipsecreate.png") center top 13%,
+            url("../../../assets/EllipseSmall.png") center top 38%,
+            url("../../../assets/Ellipsexxs.png") center top 43%,
+            url("../../../assets/VectorCreate.png") left 20% top 39%,
+            url("../../../assets/Vectorxs.png") right 27.1% top 29%,
+            url("../../../assets/VectorCreate.png") bottom 10.2% left 12.8%,
+            url("../../../assets/Vectomain.png") top 10% right 27%,
+            url("../../../assets/Vectomain.png") left 31% bottom 23%,
+            url("../../../assets/create.png") left 25% bottom;
+        background-repeat: no-repeat;
+    }
 
-.logo  {font-size: 1.4rem; 
-}
+    .logo {
+        font-size: 1.4rem;
+    }
     .create_title {
-        margin-top: 5rem; 
+        margin-top: 5rem;
     }
     .create_title h2 {
-        font-size: 3.5rem; 
+        font-size: 3.5rem;
     }
 
-    .contacts_menu{
-        gap: 2rem; 
+    .contacts_menu {
+        gap: 2rem;
         font-size: var(--font-size-small);
     }
-    .create_footer{
-margin-top: 10rem;
+    .create_footer {
+        margin-top: 10rem;
     }
 }
 
-
 @media (max-width: 375px) {
-    .createSection{ 
+    .createSection {
         margin-top: 2rem;
-        background: 
-     
-        url('../../../assets/VectorCreate.png') left 20% top 39%,
-        url('../../../assets/Vectorxs.png') center top 20%,
-        url('../../../assets/VectorCreate.png') bottom 10.2% left 12.8%,
-        url('../../../assets/Vectomain.png') top 10% right 27%,
-        url('../../../assets/Vectomain.png') center bottom 15%,
-        url('../../../assets/create.png') center bottom;
-    background-repeat: no-repeat;
+        background:
+            url("../../../assets/VectorCreate.png") left 20% top 39%,
+            url("../../../assets/Vectorxs.png") center top 20%,
+            url("../../../assets/VectorCreate.png") bottom 10.2% left 12.8%,
+            url("../../../assets/Vectomain.png") top 10% right 27%,
+            url("../../../assets/Vectomain.png") center bottom 15%,
+            url("../../../assets/create.png") center bottom;
+        background-repeat: no-repeat;
     }
-    .create_head_menu{
+    .create_head_menu {
         justify-content: space-around;
     }
     .create_title h2 {
-        font-size: 3rem; 
+        font-size: 3rem;
     }
-.contacts_menu {
-    flex-direction: column;
-    gap: 1rem; 
-}
+    .contacts_menu {
+        flex-direction: column;
+        gap: 1rem;
+    }
 
-.create_footer p {
-    font-size: 1rem; 
-}
+    .create_footer p {
+        font-size: 1rem;
+    }
 }

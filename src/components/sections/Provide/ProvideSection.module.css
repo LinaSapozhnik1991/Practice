@@ -1,4 +1,4 @@
-.provide{
+.provide {
     margin-top: 3.2rem;
     height: auto;
     text-align: center;
@@ -6,13 +6,12 @@
     flex-direction: column;
     align-items: center;
 }
-.provide_title{
+.provide_title {
     text-align: center;
-    font-size:4.8rem;
+    font-size: 4.8rem;
     letter-spacing: -1px;
-
 }
-.provide p{
+.provide p {
     margin-top: 1.6rem;
     margin-bottom: 5.5rem;
     text-transform: uppercase;
@@ -21,10 +20,10 @@
 }
 
 @media (max-width: 1024px) {
-    .provide_title{
+    .provide_title {
         font-size: 3.5rem;
     }
-    .provide p{
+    .provide p {
         margin: 1rem;
         font-size: 1rem;
     }
